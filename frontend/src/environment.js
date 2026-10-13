@@ -1,8 +1,6 @@
-let IS_PROD =true;
-const server =IS_PROD ?
-    
+let IS_PROD = false;
+const server = IS_PROD ?
     "https://connectifybackend-cmof.onrender.com" :
-    "https://localhost:3000"
-
+    "http://localhost:8000";
 
 export default server;
